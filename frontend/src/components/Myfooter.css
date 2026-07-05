@@ -1,0 +1,58 @@
+
+#ifs{
+    width: auto 1200px;
+    display: flex;
+    align-items: center;
+}
+#lf{
+    text-align: center;
+    width: 100%;
+    color: rgba(255, 255, 255, 0.788);
+    font-weight: 400;
+}
+.c h3{
+    margin-bottom: 10px;
+    color: white;
+}
+.c p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.788);;
+}
+.ifd{
+    width: 300px;
+}
+hr{
+    display: flex;
+    border-color: rgba(255, 255, 255, 0.788);
+    width: 100%;
+    margin-bottom: 20px;
+    justify-self: center;
+}
+.r{
+    display: flex;
+    flex-direction: row;
+}
+.c{
+    display: flex;
+    margin: 20px;   
+    flex-direction: column;
+}
+ul li {
+    color: rgba(255, 255, 255, 0.788);
+    padding: 5px;
+}
+ul li ol {
+    display: flex;
+    align-items: center;
+}
+
+ul li ol li img#github{
+    width: 40px;
+    margin: 0 -10px;
+}
+ul li ol li img#linkedin{
+    width: 20px;
+}
+ul li ol li img#instagram{
+    width: 20px;
+}
