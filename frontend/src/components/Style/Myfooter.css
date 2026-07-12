@@ -41,6 +41,10 @@ ul li {
     color: rgba(255, 255, 255, 0.788);
     padding: 5px;
 }
+ul#slink li a{
+    color: white;
+    text-decoration: none;
+}
 ul li ol {
     display: flex;
     align-items: center;

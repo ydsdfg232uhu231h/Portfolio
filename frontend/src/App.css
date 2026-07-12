@@ -1,15 +1,7 @@
-header{
-    position: sticky;
-    top: 0px;
-}
-main{
-    width: 100vw;
-    height: 100vh;
-}
-footer{
-    height: 380px;
+body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: rgb(6, 50, 92);
+    width: 100vw;
+    height: 100vh;
 }

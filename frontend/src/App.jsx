@@ -1,20 +1,10 @@
-import './App.css'
-import { Myfooter } from './components/myfooter'
-import Navbar from './components/navbar'
-import Homepage from './pages/homepage'
+import './App.css';
+import Routedef from './routes/Routedef.jsx';
 function App() {
 
   return (
     <>
-      <header>
-        <Navbar />
-      </header>
-      <main>
-        <Homepage />
-      </main>
-      <footer>
-        <Myfooter/>
-      </footer>
+      <Routedef/>
     </>
   )
 }

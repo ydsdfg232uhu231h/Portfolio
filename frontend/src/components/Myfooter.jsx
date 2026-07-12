@@ -1,5 +1,5 @@
-import "./Myfooter.css";
-
+import "./Style/Myfooter.css";
+import { Link } from "react-router";
 export function Myfooter() {
     return <>
         <div className="c" id="ifs">
@@ -10,12 +10,12 @@ export function Myfooter() {
                 </div>
                 <div className="c ifd">
                     <h3>Quick Link</h3>
-                    <ul>
-                        <li>Home</li>
-                        <li>About</li>
-                        <li>Project</li>
-                        <li>skills</li>
-                        <li>contect</li>
+                    <ul id="slink">
+                        <li><Link to={"/"}>Home</Link></li>
+                        <li><Link to={"/about"}>About</Link></li>
+                        <li> <Link to={"/project"}>Project</Link></li>
+                        <li><Link to={"/skills"}>skills</Link></li>
+                        <li><Link to={"/contact"}>contact</Link></li>
                     </ul>
                 </div>
                 <div className="c ifd">
@@ -27,13 +27,13 @@ export function Myfooter() {
                             <li><img src="github.png" id="github" alt="not found" /> </li>
                             <li><img src="linkedin.png" id="linkedin" alt="not found" /> </li>
                             <li><img src="instagram.png" id="instagram" alt="not found" /></li>
-                            </ol></li>
+                        </ol></li>
                     </ul>
                 </div>
             </div>
             <div id="lf">
                 <hr />
-                <p>© 2026 Yuvraj Gupta. All rights reserved. Built with React.js, css & Node.js.</p>
+                <p>© 2026 Yuvraj Gupta. All rights reserved. Built with React.js, CSS & Node.js.</p>
             </div>
 
         </div>
